@@ -1,0 +1,8 @@
+{
+  "directories": ["blocks"],
+  "extensions": [".js", ".css", ".bh.js"],
+  "dependext": ".bh.js",
+  "jsdoctag": "deps",
+  "outdir": "build",
+  "outname": "index"
+}
