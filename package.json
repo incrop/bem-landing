@@ -1,0 +1,19 @@
+{
+  "name": "bem-landing",
+  "version": "0.0.0",
+  "description": "Project stub for building simple landing pages with BEM",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/incrop/bem-landing.git"
+  },
+  "author": "incrop@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/incrop/bem-landing/issues"
+  },
+  "homepage": "https://github.com/incrop/bem-landing#readme"
+}
