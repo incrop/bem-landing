@@ -1,5 +1,6 @@
 ({
     block: 'page',
-    title: 'Hello',
-    content: 'World!'
+    title: 'Hello there',
+    name: 'index',
+    content: 'This is main page.'
 });

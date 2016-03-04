@@ -7,7 +7,24 @@ bh.match('page', function(tmpl, json) {
                 {elem: 'css', url: 'index.css'}
             ]},
             {tag: 'body', content: [
-                json.content,
+                {block: 'container', content: [
+                    {
+                        elem: 'header',
+                        content: [
+                            {elem: 'title', content: json.title},
+                            {block: 'menu', selected: json.name, items: [
+                                {name: 'index', title: 'Main page'},
+                                {name: 'gallery', title: 'Gallery'},
+                                {name: 'details', title: 'Details'}
+                            ]}
+                        ]
+                    },
+                    {
+                        elem: 'content',
+                        content: json.content
+                    }
+                ]},
+                {elem: 'js', url: '//code.jquery.com/jquery-2.2.1.min.js'},
                 {elem: 'js', url: 'index.js'}
             ]}
         ]}

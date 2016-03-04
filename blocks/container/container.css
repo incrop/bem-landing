@@ -1,0 +1,33 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container__header {
+    background: #ccc;
+    box-sizing: border-box;
+    border: 2px solid #eee;
+    border-top-width: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 0;
+}
+
+.container__title {
+    font: 24px/32px helvetica, arial, sans;
+    padding: 10px 20px;
+    margin: 0;
+    color: #222;
+}
+
+.container__content {
+    margin: 0 30px 10px;
+    background: #aaa;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid #eee;
+    border-width: 0 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font: 14px/18px helvetica, arial, sans;
+}
