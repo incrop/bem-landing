@@ -4,7 +4,7 @@
   "description": "Project stub for building simple landing pages with BEM",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon -w blocks -w pages -e css,js make.js | http-server -c-1 -p 8000"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   "homepage": "https://github.com/incrop/bem-landing#readme",
   "devDependencies": {
     "bemaker": "^0.2.0",
-    "bh": "^4.1.3"
+    "bh": "^4.1.3",
+    "http-server": "^0.9.0",
+    "nodemon": "^1.9.1"
   }
 }
